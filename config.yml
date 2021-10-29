@@ -100,7 +100,7 @@ challenge:                   # Incoming challenges.
     - bullet
     - blitz
     - rapid
-    - classical
+#   - classical
 #   - correspondence
   modes:                     # Game modes to accept.
     - casual                 # Unrated games.
