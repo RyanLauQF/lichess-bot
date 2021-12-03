@@ -7,11 +7,10 @@ engine:                      # Engine settings.
   protocol: "uci"            # "uci" or "xboard"
   ponder: false               # Think on opponent's time.
   polyglot:
-    enabled: false           # Activate polyglot book.
+    enabled: true           # Activate polyglot book.
     book:
       standard:              # List of book file paths for variant standard.
-        - engines/book1.bin
-        - engines/book2.bin
+        - engines/Perfect2021.bin
 #     atomic:                # List of book file paths for variant atomic.
 #       - engines/atomicbook1.bin
 #       - engines/atomicbook2.bin
@@ -35,7 +34,7 @@ engine:                      # Engine settings.
       min_depth: 20
       min_knodes: 0
     online_egtb:
-      enabled: false
+      enabled: true
       min_time: 20
       max_pieces: 7
       source: "lichess"        # One of "lichess", "chessdb"
